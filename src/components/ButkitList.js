@@ -2,12 +2,10 @@ import React from 'react';
 import BuyTem from "./BuyTem";
 import './ButkitList.scss';
 
-const ButkitList = () => {
+const ButkitList = ({ data }) => {
     return (
         <div className="list">
-            <BuyTem />
-            <BuyTem />
-            <BuyTem />
+            {data.map( row => <BuyTem data={ row } key={ row.id } />)}
         </div>
     );
 };
