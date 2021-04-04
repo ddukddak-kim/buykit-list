@@ -1,0 +1,14 @@
+.buy-tem {
+  padding: 1rem;
+  display: flex;
+  align-items: center;  // 세로 중앙정렬
+
+  &:nth-child(even) {
+    background: #f8f9fa;
+  }
+
+  .product-name {
+
+  }
+
+}

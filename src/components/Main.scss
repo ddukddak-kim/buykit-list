@@ -1,0 +1,24 @@
+
+.main-template {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  border-radius: 4px;
+  overflow: hidden;
+
+  .app-title {
+    height: 4rem;
+    background: #fb6d3b;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    background: #ffffff;
+  }
+}
